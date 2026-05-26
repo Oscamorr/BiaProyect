@@ -12,7 +12,7 @@ import (
 	_ "github.com/lib/pq"
 )
 
-const dsn = "postgres://postgres:1019151433Mo*@localhost:5432/energy_db?sslmode=disable"
+const dsn = "postgres://postgres:<TU_PASSWORD>@localhost:5432/energy_db?sslmode=disable"
 
 type MeterResponse struct {
 	MeterID            int       `json:"meter_id"`
